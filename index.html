@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+  
+</head>
+    <body>
+        <div class="sidebar">
+            <nav class="sidebar_navigation">
+              <div class="logo">
+                <a href="">
+                    <img src="./assets/icons/logo-spotify.png" alt="logo spotify">
+                </a>
+                </div>                
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-home"></span>
+                                <span>Initial</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-search"></span>
+                                <span>Search</span>
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
+
+            <div class="library">
+                <div class="library_content">
+                    <button class="library_button">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </button>
+                    <span class="fa fa-plus"></span>
+                </div>
+
+                <section class="section-playlist">
+                    <div class="section-playlist_content">
+                        <span class="text title">Create your first playlist</span>
+                        <span class="text subtitle">Let's do it!</span>   
+                        <button class="section-playlist_button">
+                            <span>Create playlist</span>
+                        </button>                
+                    </div>
+                </section>
+
+                <div class="cookies">
+                    <a href="">Cookies</a>
+                </div>
+
+                <div class="languages">
+                    <button class="languages_button">
+                        <span class="fa fa-globe"></span>
+                        <span>English</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="main-container">
+                <nav class="header_navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img src="./assets/icons/small-left.png" alt="Left arrow">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="./assets/icons/small-right.png" alt="Right arrow">
+                        </button>
+
+                        <div class="header_search">
+                            <img src="./assets/icons/search.png" alt="">
+                            <input id="search-input" type="text" maxlength="800" placeholder="What do you want to listen to?" />
+                        </div>
+
+                        <div class="header_login">
+                            <button class="subscribe">Sign up</button>
+                            <button class="login">Log in</button>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </main>
+
+        <footer class="disclaimer-premium">
+        </footer>
+
+    </body>
+</html>
