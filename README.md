@@ -1,4 +1,4 @@
-# Spotify-Imers-o-Java
+# Spotify-Imersao-Java
 Spotify Page - Imersão Java Alura
 
 - Ainda em construção
